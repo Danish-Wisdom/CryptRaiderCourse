@@ -1,0 +1,362 @@
+[
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\CryptRaiderCourse.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\CryptRaiderCourse.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\CryptRaiderCourse.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\CryptRaiderCourseCameraManager.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\CryptRaiderCourseCameraManager.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\CryptRaiderCourseCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\CryptRaiderCourseCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\CryptRaiderCourseGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\CryptRaiderCourseGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\CryptRaiderCoursePlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\CryptRaiderCoursePlayerController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Horror\\HorrorCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Horror\\HorrorCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Horror\\HorrorGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Horror\\HorrorGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Horror\\HorrorPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Horror\\HorrorPlayerController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Horror\\HorrorUI.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Horror\\HorrorUI.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\AI\\EnvQueryContext_Target.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\AI\\EnvQueryContext_Target.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\AI\\ShooterAIController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\AI\\ShooterAIController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\AI\\ShooterNPC.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\AI\\ShooterNPC.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\AI\\ShooterStateTreeUtility.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\AI\\ShooterStateTreeUtility.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterBulletCounterUI.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterBulletCounterUI.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterPickup.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterPickup.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterPlayerController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterProjectile.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterProjectile.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterUI.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterUI.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterWeapon.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterWeapon.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterWeaponHolder.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\Source\\CryptRaiderCourse\\Variant_Shooter\\ShooterWeaponHolder.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\Danish\\Documents\\Unreal Projects\\C++ Coursework\\CryptRaider\\CryptRaiderCourse\\.vscode\\compileCommands_CryptRaiderCourse\\CryptRaiderCourse.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	}
+]
