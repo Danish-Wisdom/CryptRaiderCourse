@@ -79,3 +79,7 @@ Source/CryptRaiderCourse/Variant_Horror/*
 
 # Variant Shooter Files
 Source/CryptRaiderCourse/Variant_Shooter/*
+Source/CryptRaiderCourse/Variant_Horror/
+Source/CryptRaiderCourse/Variant_Shooter/
+Content/Variant_Shooter/
+Content/Variant_Horror/
