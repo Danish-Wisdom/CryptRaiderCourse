@@ -73,3 +73,9 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Variant Horror Files
+Source/CryptRaiderCourse/Variant_Horror/*
+
+# Variant Shooter Files
+Source/CryptRaiderCourse/Variant_Shooter/*
