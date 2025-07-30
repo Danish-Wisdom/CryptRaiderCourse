@@ -5,6 +5,8 @@
 
 #include "Engine/World.h"
 #include  "DrawDebugHelpers.h"
+#include "EnhancedInputSubsystems.h"
+//#include "Kismet/GameplayStatics.h"
 
 // Sets default values for this component's properties
 UGrabber::UGrabber()
@@ -22,7 +24,20 @@ void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
+	// Accessing Enhanced Input System through C++ and adding a mapping context through code
+	if (APlayerController* PlayerController = Cast<APlayerController>(GetWorld()->GetFirstPlayerController()))
+	{
+		UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(PlayerController->GetLocalPlayer());
+		if (Subsystem)
+		{
+			Subsystem->AddMappingContext(InputMappingContext,0);
+
+			UE_LOG(LogTemp, Warning, TEXT("Mapping Context Added"));
+
+			bool HasMC = Subsystem->HasMappingContext(InputMappingContext);
+			UE_LOG(LogTemp, Warning, TEXT("Has the Mapping Context: %s"), (HasMC ? TEXT("True") : TEXT("False")));
+		}
+	}
 	
 }
 
@@ -50,12 +65,12 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 		// FString HitName = Hit.GetActor()->GetActorLabel();
 		// UE_LOG(LogTemp, Warning, TEXT("Hit Actor: %s"), *HitName);
 
-		AActor* HitActor = Hit.GetActor();
-		UE_LOG(LogTemp, Warning, TEXT("Hit Actor: %s"), *HitActor->GetActorLabel());
+		//AActor* HitActor = Hit.GetActor();
+		//UE_LOG(LogTemp, Warning, TEXT("Hit Actor: %s"), *HitActor->GetActorLabel());
 	}
 	else
 	{
-		UE_LOG(LogTemp, Warning, TEXT("No hit Actor"));		
+		//UE_LOG(LogTemp, Warning, TEXT("No hit Actor"));		
 	}
 
 }
