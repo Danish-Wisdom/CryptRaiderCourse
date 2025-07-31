@@ -6,7 +6,7 @@
 #include "Math/UnrealMathUtility.h"
 
 // Sets default values for this component's properties
-UMover::UMover()
+UMover::UMover(): MoveOffset(), OriginalLocation()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
@@ -43,3 +43,8 @@ void UMover::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponent
 
 }
 
+void UMover::SetShouldMove(bool Move)
+{
+	ShouldMove = Move;
+	UE_LOG(LogTemp, Warning, TEXT("%s"), ShouldMove ? TEXT("true") : TEXT("false"));
+}

@@ -89,23 +89,10 @@ void UGrabber::GrabLogic() const
 {
 	UPhysicsHandleComponent* PhysicsHandle = GetPhysicsHandle();
 	if (PhysicsHandle == nullptr){return;}
-	
-	FVector StartLocation = GetComponentLocation();
-	FVector EndLocation = StartLocation + (GetForwardVector() * MaxGrabDistance);
-	DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, false, 10.0f);
-	DrawDebugSphere(GetWorld(), EndLocation, 10, 10, FColor::Blue, false, 10.0f);
 
-	
-	FHitResult Hit;
-	FCollisionShape Sphere = FCollisionShape::MakeSphere(GrabRadius);
-	bool HasHit = GetWorld()->SweepSingleByChannel(
-		Hit,
-		StartLocation, EndLocation,
-		FQuat::Identity,
-		ECC_GameTraceChannel2,
-		Sphere
-	);
-	if (HasHit)
+	FHitResult Grabbable;
+
+	if (GetGrabbableInReach(Grabbable))
 	{
 		// FString HitName = Hit.GetActor()->GetActorLabel();
 		//UE_LOG(LogTemp, Warning, TEXT("Hit Actor: %s"), *HitName);
@@ -116,14 +103,14 @@ void UGrabber::GrabLogic() const
 		//DrawDebugSphere(GetWorld(), Hit.Location, 10, 10, FColor::Purple, false, 10.0f);
 		//DrawDebugSphere(GetWorld(), Hit.ImpactPoint, 10, 10, FColor::Green, false, 10.0f);
 
-		UPrimitiveComponent* HitComponent = Hit.GetComponent();
+		UPrimitiveComponent* HitComponent = Grabbable.GetComponent();
 		HitComponent->WakeAllRigidBodies();
 		
 		// Using Physics Handle to grab objects in the world
 		PhysicsHandle->GrabComponentAtLocationWithRotation(
 			HitComponent,
 			NAME_None,
-			Hit.ImpactPoint,
+			Grabbable.ImpactPoint,
 			GetComponentRotation()
 		);
 	}
@@ -165,6 +152,26 @@ UPhysicsHandleComponent* UGrabber::GetPhysicsHandle() const
 		UE_LOG(LogTemp, Warning, TEXT("Grabber requires a UPhysicsHandleComponent"));
 		return nullptr;
 	}
+
+}
+
+bool UGrabber::GetGrabbableInReach(FHitResult& OutHitResult) const
+{
+	FVector StartLocation = GetComponentLocation();
+	FVector EndLocation = StartLocation + (GetForwardVector() * MaxGrabDistance);
+	DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, false, 10.0f);
+	DrawDebugSphere(GetWorld(), EndLocation, 10, 10, FColor::Blue, false, 10.0f);
+
+	
+	
+	FCollisionShape Sphere = FCollisionShape::MakeSphere(GrabRadius);
+	return GetWorld()->SweepSingleByChannel(
+		OutHitResult,
+		StartLocation, EndLocation,
+		FQuat::Identity,
+		ECC_GameTraceChannel2,
+		Sphere
+	);
 
 }
 
