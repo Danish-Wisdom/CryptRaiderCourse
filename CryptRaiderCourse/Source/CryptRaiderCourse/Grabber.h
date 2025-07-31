@@ -5,8 +5,12 @@
 #include "CoreMinimal.h"
 #include "InputMappingContext.h"
 #include "Components/SceneComponent.h"
+#include "PhysicsEngine/PhysicsHandleComponent.h"
+
 #include "Grabber.generated.h"
 
+class UInputMappingContext;
+class UInputAction;
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class CRYPTRAIDERCOURSE_API UGrabber : public USceneComponent
@@ -21,18 +25,38 @@ protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
+	void GrabLogic() const;
+
+	UPhysicsHandleComponent* GetPhysicsHandle() const;
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	UInputMappingContext* InputMappingContext = nullptr;
+	UInputMappingContext* InputMappingContext;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UInputAction* GrabInputAction;
+
 
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	UFUNCTION(BlueprintCallable)
+	void Release();
+
+	UFUNCTION(BlueprintCallable)
+	void Grab();
+
+	void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent);
+	void SetupMappingContext() const;
+	
 private:
 	UPROPERTY(EditAnywhere)
 	float MaxGrabDistance = 300;
 
 	UPROPERTY(EditAnywhere)
 	float GrabRadius = 100;
+
+	UPROPERTY(EditAnywhere)
+	float HoldDistance = 150;
 		
 };
