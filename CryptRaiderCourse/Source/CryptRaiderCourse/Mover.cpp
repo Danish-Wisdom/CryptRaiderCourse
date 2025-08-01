@@ -32,13 +32,11 @@ void UMover::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponent
 
 	if (ShouldMove)
 	{
-		FVector CurrentLocation = GetOwner()->GetActorLocation();
-		FVector TargetLocation = OriginalLocation + MoveOffset;
-		float Speed = FVector::Distance(OriginalLocation, TargetLocation) / MoveTime;
-	
-		FVector NewLocation = FMath::VInterpConstantTo(CurrentLocation,TargetLocation,DeltaTime,Speed);
-
-		GetOwner()->SetActorLocation(NewLocation);
+		MoveToOffset(DeltaTime);
+	}
+	else
+	{
+		ReturnToOGLocation(DeltaTime);
 	}
 
 }
@@ -47,4 +45,26 @@ void UMover::SetShouldMove(bool Move)
 {
 	ShouldMove = Move;
 	UE_LOG(LogTemp, Warning, TEXT("%s"), ShouldMove ? TEXT("true") : TEXT("false"));
+}
+
+void UMover::MoveToOffset(float DeltaTime)
+{
+	FVector CurrentLocation = GetOwner()->GetActorLocation();
+	FVector TargetLocation = OriginalLocation + MoveOffset;
+	float Speed = FVector::Distance(OriginalLocation, TargetLocation) / MoveTime;
+	
+	FVector NewLocation = FMath::VInterpConstantTo(CurrentLocation,TargetLocation,DeltaTime,Speed);
+
+	GetOwner()->SetActorLocation(NewLocation);
+}
+
+
+void UMover::ReturnToOGLocation(float DeltaTime)
+{
+	FVector CurrentLocation = GetOwner()->GetActorLocation();
+	float Speed = MoveOffset.Length() / MoveTime;
+
+	FVector NewLocation = FMath::VInterpConstantTo(CurrentLocation,OriginalLocation,DeltaTime,Speed);
+
+	GetOwner()->SetActorLocation(NewLocation);
 }

@@ -34,7 +34,8 @@ private:
 	UPROPERTY(EditAnywhere)
 	FName AcceptableTagName;
 
-
-	UMover* Mover = nullptr;
+	TArray<UMover*> Movers;
+	
+	
 	AActor* GetAcceptableActor() const;
 };

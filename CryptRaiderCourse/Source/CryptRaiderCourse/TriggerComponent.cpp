@@ -28,15 +28,33 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 	AActor* Actor = GetAcceptableActor();
 	if (Actor != nullptr)
 	{
+		UPrimitiveComponent* Component = Cast<UPrimitiveComponent>(Actor->GetRootComponent());
+		if (Component != nullptr)
+		{
+			Component->AttachToComponent(this, FAttachmentTransformRules::KeepWorldTransform, NAME_None);
+			Component->SetSimulatePhysics(false);
+			if (Movers.Num() != 0)
+			{
+				for (auto SingleMover : Movers)
+				{
+					SingleMover->SetShouldMove(true);
+					
+				}
+			}
+		}
 		UE_LOG(LogTemp, Warning, TEXT("Acceptable Actor found: UNLOCKING"));
 	}
 	else
 	{
 		UE_LOG(LogTemp, Error, TEXT("No acceptable actor found: RELOCKING"));
-		if (Mover != nullptr)
+		if (Movers.Num() != 0)
 		{
-			Mover->SetShouldMove(true);
-		}
+			for (auto SingleMover : Movers)
+			{
+				SingleMover->SetShouldMove(false);
+					
+			}
+		}	
 	}
 
 }
@@ -48,7 +66,10 @@ AActor* UTriggerComponent::GetAcceptableActor() const
 
 	for (AActor* OverlappingActor : OverlappingActors)
 	{
-		if (OverlappingActor->ActorHasTag(AcceptableTagName))
+		bool UnlockTag = OverlappingActor->ActorHasTag(AcceptableTagName);
+		bool GrabTag = OverlappingActor->ActorHasTag("Grabbed");
+		
+		if (UnlockTag && !GrabTag)
 		{
 			return  OverlappingActor;
 		}
@@ -59,6 +80,6 @@ AActor* UTriggerComponent::GetAcceptableActor() const
 
 void UTriggerComponent::SetMoverLink(UMover* MoverComponent)
 {
-	Mover = MoverComponent;
+	Movers.Add(MoverComponent);
 }
 

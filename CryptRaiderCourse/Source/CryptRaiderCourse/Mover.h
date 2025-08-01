@@ -35,8 +35,15 @@ private:
 	float MoveTime = 4;
 
 	
+	
 	bool ShouldMove = false;
 
 
 	FVector OriginalLocation;
+	
+	void MoveToOffset(float DeltaTime);
+	
+	void ReturnToOGLocation(float DeltaTime);
+
+	
 };
